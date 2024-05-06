@@ -54,7 +54,7 @@ const ChatComponent = ({ chatId }: Props) => {
       />
 
       {/* Input Form */}
-      <form onSubmit={handleSubmit} className="p-2 bg-white">
+      <form onSubmit={handleSubmit} className="p-2  bg-white absolute bottom-0 w-[30%]">
         <div className="flex">
           <Input
             value={input}
