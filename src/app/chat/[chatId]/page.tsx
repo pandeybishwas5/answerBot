@@ -33,7 +33,7 @@ type Props = {
     
     return (
         <div className="flex max-h-screen">
-          <div className="flex w-full max-h-screen">
+          <div className="flex w-full max-h-screen overflow-hidden">
             {/* chat sidebar */}
             <div className="flex-[1] max-w-xs">
               <ChatSideBar chats={_chats} chatId={parseInt(chatId)} isPro={isPro}  />
